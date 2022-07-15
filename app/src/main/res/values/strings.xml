@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TrendApps</string>
+    <string name="icon_app">Иконка приложения</string>
+    <string name="name_app">Название приложения</string>
+    <string name="link_app">Ссылка</string>
+    <string name="Description_app">Описание</string>
+</resources>
