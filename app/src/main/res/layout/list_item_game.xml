@@ -7,13 +7,11 @@
 
     <TextView
         android:id="@+id/game_list_name"
+        style="@style/GameTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/name_game"
-        android:textAlignment="center"
-        android:textColor="#555555"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,12 +19,11 @@
 
     <TextView
         android:id="@+id/game_list_link"
+        style="@style/GameLink"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:autoLink="web"
         android:text="@string/link_game"
-        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
